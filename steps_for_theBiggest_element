@@ -1,0 +1,13 @@
+print("now, we are given an array like the below, and we find out how many steps occur at the array for reaching the biggest element")
+nums = [1, 2, 3, 1, 2]
+print(nums)
+sayac = 0
+if nums[1] == nums[0] + nums[0] :
+    sayac += 1
+if nums[2] == nums[0] + nums[1] :
+    sayac += 1
+if nums[3] == nums[1] + nums[2] :
+    sayac += 1
+if nums[4] == nums[2] + nums[3] :
+    sayac += 1
+print(f"At the array for the biggest element total {sayac}. steps occur")
