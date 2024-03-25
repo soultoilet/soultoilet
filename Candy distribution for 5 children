@@ -1,0 +1,11 @@
+import random
+print("We have been asked a program distributes candies randomly in range 0-5, to 5 children")
+rates = []
+children = []
+min_ = 1
+max_ = 5
+for _ in range(5) :
+    rnd = random.randint(min_, max_)
+    rates.append(rnd)
+for i in range(5) :
+    print(input("A name, please: "), f' : {rates [i]}', "candy") 
