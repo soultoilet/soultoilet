@@ -1,0 +1,26 @@
+import time
+birds = int(input("How many birds are in: "))
+my_time = int(input("how many seconds freedom for your birds: "))
+
+for x in range(my_time, 0, -1):
+    seconds = x % 60
+    minutes = int(x / 60) % 60
+    hours = int(x / 3600) % 24
+    print(f"{hours :01}:{minutes:01}:{seconds:01}")
+    print(x)
+    time.sleep(1)
+legs_onstick = int(input("How many legs on the stick: "))
+print("normally the number to be taken from the sencore on the stick")
+if legs_onstick == 2 * birds :
+    print("Time ups, cage is closed")
+else :
+    for x in range(my_time, 0, -1):
+        seconds = x % 60
+        minutes = int(x / 60) % 60
+        hours = int(x / 3600) % 24
+        print(f" {hours :01}:{minutes : 01}:{seconds : 01}")
+        print(x)
+        time.sleep(1)
+legs_onstick = int(input("How many legs on the stick: "))
+if legs_onstick  == 2 * birds :
+    print("Time ups, cage is closed")
