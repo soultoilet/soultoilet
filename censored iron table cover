@@ -1,0 +1,43 @@
+import time
+print("(our ironing table has a cover censored to tempereture and move the iron, when it is hot and on the dress moveless more than 5 seconds the cover to warn the user with an alarm increasing every 3 seconds)")
+iron_on = True
+iron_off = False
+cover_on = True
+cover_off = False
+the_temperature = 10
+stop_the_movement = True
+
+if (cover_on == True) :
+    cover_on = input("the cover is on: ")
+    print("you can run your iron")
+    if (iron_on == True) :
+        if (stop_the_movement == True):
+            for x in range(5) :
+                time.sleep(1)
+                print(x)
+            if (x == 4) :
+                print("alarm starts")
+            if (iron_on == True) :
+                for x in range(4):
+                    time.sleep(1)
+                    print(x)
+                if (x == 3) :
+                    print("high alarm")
+                    if (iron_on == True) :
+                            for x in range(4):
+                                time.sleep(1)
+                                print(x)
+                            if (x == 3) :
+                                print("higher alarm")
+                                if (iron_on == True):
+                                    for x in range(4):
+                                        time.sleep(1)
+                                        print(x)
+                                if (x == 3) :
+                                    print("Very high alarm")
+                                    if (iron_on == True) :
+                                        for x in range(4):
+                                            time.sleep(1)
+                                            print(x)
+                                        if (x == 3) :
+                                            print("the fire alarm of the house/building starts")
