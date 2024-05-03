@@ -1,0 +1,23 @@
+print("public garage to report to the mobile phones of drivers the park spaces available for parking using censores on each sections of the garage")
+garagecpcty = 270
+floor1cpcty = 90
+floor2cpcty = 90
+floor3cpcty = 90
+floor1 = 98
+floor2 = 102
+floor3 = 68
+
+
+if (floor1 < 90) :
+    (floor1cpcty - floor1)
+    print("the garage has",  floor1cpcty-floor1,  "available places")
+else :
+    print("the floor is full")
+if (floor2<90) :
+    print("the garage has",  floor2cpcty-floor2,  "available places")
+else :
+     print("the floor is full")
+if (floor3<90) :
+    print("the garage has",  floor3cpcty-floor3,  "available places")
+else :
+    print("the garage is full")
