@@ -1,0 +1,37 @@
+namespace add_toPL
+{
+    internal class Program
+    {
+
+
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("my program is adding the songs on stream while playin and according to user's wish, to the PlayList ");
+            string[] singers = { "bon jovi", "drake", "timberlake", "adriana grande", "shakira" };
+            string[] songs = { "Perfect Strangers", "it's my life", "dangerous", "all of the dogs", "black magic women" };
+
+            Random rnd = new Random();
+            rnd.Next();
+            string playlist = "OK";
+            int length = singers.Length;
+            int lenght = songs.Length;
+            int index = rnd.Next(0, length);
+            string singer = singers[index];
+            string song = songs[index];
+            Console.WriteLine(singer);
+            Console.WriteLine(song);
+            Console.WriteLine("Would you like to add to your  playlist: ");
+            playlist = (Console.ReadLine());
+
+            { 
+                if (playlist != "OK")
+                Console.WriteLine("Start again");
+                else if (playlist == "OK") 
+                Console.WriteLine(singer + song + "added to your playlist");
+                Console.ReadLine();
+                        }
+
+                    }
+                }
+            }
