@@ -1,0 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace take_thw_input_from_text
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string departcity = ".";
+            string arrivalcity = ".";
+            string day = ".";
+            string[] cities = { "Roma", "Paris", "Rio", "Havana", "Münih" };
+            string[] days = { "sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
+
+            {
+                Console.WriteLine("We want to go from, ");
+                departcity = Console.ReadLine();
+                Console.WriteLine("to, ");
+                arrivalcity = Console.ReadLine();
+                Console.WriteLine("day, ");
+                day = Console.ReadLine();
+                Console.WriteLine("is that possible?");
+                
+
+                {
+
+                    foreach (string i in cities)
+
+                        if (departcity == i); 
+                        {
+                        foreach (string y in cities)
+
+                            if (arrivalcity == y) ;
+                                {
+                            foreach (string x in days)
+
+                                if (day == x) ;                     
+      
+                                
+                                {
+                                Console.WriteLine("You can go from: " + departcity);
+                                Console.WriteLine("to: " + arrivalcity);
+                                Console.WriteLine("in: " + day); 
+                                Console.WriteLine("with our bus company");
+                                Console.ReadLine();
+
+                                        }
+
+                                        }
+                                }
+                        }
+                }
+            }
+        }
+    }
+ 
