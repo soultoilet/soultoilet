@@ -1,0 +1,29 @@
+import fileinput
+underlined_sentence = "";
+underlined_word = "";
+
+print("A widget for print books has two faces, it will be put on the page, one of the faces to scan the paper, the other one to display the page to the reader-humain, he/she can chose the sentences which he/she likes to underline, and he/she can chose the word which he/she likes the learn about the meaning, the sentences, and the words to be saved on diffrent files");
+
+you_can_do = input(str("select the sentence you want to underline: "));
+if (you_can_do == 'select') : 
+
+    text = "If this were any other extraordinary case of historic import, any other case likely to tear at the national fabric, the president of the United States might have stepped before the cameras to try to calm his fellow citizens and encourage faith in the American system of justice"; underlined_sentence = "But this was no ordinary extraordinary case"; "And President Biden was no disinterested bystander"; 
+with open('sentences.py', 'w') as file :
+    file.write(underlined_sentence); 
+
+print(underlined_sentence)
+
+you_can_do = input(str("select the sentence you want to underline: "));
+if (you_can_do == 'select') : 
+
+    text = "If this were any other extraordinary case of historic import, any other case likely to tear at the national fabric, the president of the United States might have stepped before the cameras to try to calm his fellow citizens and encourage faith in the American system of justice"; underlined_sentence = "But this was no ordinary extraordinary case"; underlined_sentence = "And President Biden was no disinterested bystander";
+with open('sentences.py', 'w') as file :
+    file.write(underlined_sentence);
+print(underlined_sentence)
+
+also_you_can_do = input(str("select the word you want to learn about: "));
+if (also_you_can_do == 'learn') : 
+    text = "If this were any other extraordinary case of"; underlined_word = "historic"; "import, any other case likely to tear at the national fabric, the president of the United States might have stepped before the cameras to try to calm his fellow citizens and encourage faith in the American system of justice. But this was no ordinary extraordinary case. And President Biden was no disinterested bystander";
+with open('words.py', 'w') as file :
+    file.write(underlined_word);
+print(underlined_word)
