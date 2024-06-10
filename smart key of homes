@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class key_smart
+{
+  public static void main (String [] args)    
+    {
+        
+    int key_one;
+    int key_two;
+    int key_tree;
+    System.out.println("So you are leaving home, put the censor on your key onto the censor inside the door, for not forgeting the key at home");  
+    {
+    System.out.println("someones at home, however do you want to lock the door: ");
+    Scanner scan = new Scanner(System.in);   
+    key_tree = scan.nextInt();
+    {
+    if (key_tree == 1)
+    System.out.println("the door is locked");
+    else if (key_tree != 1)
+    {
+    System.out.println("mama or/and father at home, good bye");
+    {      
+    System.out.println("So you are leaving  home, put the censor on your key onto the censor inside the door, for not forgeting the key at home");
+    while(true)  
+    {
+    System.out.println("(according to the system, no one at home, confirm it) key_one: ");
+    System.out.println("(according to the system, no one at home, confirm it) key_two: ");
+    key_one = scan.nextInt();
+    key_two = scan.nextInt();
+    if ((key_one == 2) && (key_two == 3)) {
+    System.out.println("lock the door");
+    System.out.println("in case of emergency system to be off");
+    break;  
+   }   
+   }
+   }
+   }
+    }
+  }
+}
+}
