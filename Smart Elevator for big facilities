@@ -1,0 +1,290 @@
+import random
+elevator1 = 20
+button_pushed = 0
+comming_in = 0
+#people_outside = random.randint(1, 25)
+#elevator1_inside = random.randint(1, 20)  
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+floors = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+#print(people_outside)
+#print(elevator1_inside)
+#if people_outside <= 25:
+    #if elevator1_inside < 20:
+        #if people_outside > elevator1_inside:
+            #print("Elevator is available for", + people_outside - elevator1_inside);
+            #if (people_outside > elevator1_inside):
+                #print("Elevator is not available, you can prefer elevator2");    
+print(floors[0])
+#print(people_outside)
+#print(elevator1_inside)
+people_outside = int(input("how many are outside?"))
+elevator1_inside = int(input("how many are inside?"))
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"));
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+else :
+    print(floors[1]);
+#print(people_outside)
+#print(elevator1_inside)
+people_outside = int(input("how many are outside?"));
+elevator1_inside = int((elevator1_inside + comming_in) - to_get_down);
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"));
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+    print(floors[2]);
+#print(people_outside)
+#print(elevator1_inside)
+people_outside = int(input("how many are outside?"));
+elevator1_inside = int((elevator1_inside + comming_in) - to_get_down);
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"));
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+else :
+    print(floors[3])
+    people_outside = int(input("how many are outside?"));
+    elevator1_inside = int((elevator1_inside + comming_in) - to_get_down);
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"));
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+else :
+    print(floors[4])
+#print(people_outside)
+#print(elevator1_inside)
+    people_outside = int(input("how many are outside?"));
+    elevator1_inside = int((elevator1_inside + comming_in) - to_get_down);
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"));
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+else :
+    print(floors[5])
+#print(people_outside)
+#print(elevator1_inside)
+    people_outside = int(input("how many are outside?"));
+    elevator1_inside = int((elevator1_inside + comming_in) - to_get_down);
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"));
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+else :
+    print(floors[6])
+#print(people_outside)
+#print(elevator1_inside)
+    people_outside = int(input("how many are outside?"));
+    elevator1_inside = int((elevator1_inside + comming_in) - to_get_down);
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"));
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+else :
+    print (floors [7])
+#print(people_outside)
+#print(elevator1_inside)
+    people_outside = int(input("how many are outside?"));
+    elevator1_inside = int((elevator1_inside + comming_in) - to_get_down);
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 -elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"));
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+else :
+    print(floors [8]);
+#print(people_outside)
+#print(elevator1_inside)
+    people_outside = int(input("how many are outside?"));
+    elevator1_inside = int((elevator1_inside + comming_in) - to_get_down);                            
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"));
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+else :
+    print(floors[9])
+#print(people_outside)
+#print(elevator1_inside)
+    people_outside = int(input("how many are outside?"));
+    elevator1_inside = int((elevator1_inside + comming_in) - to_get_down);
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"));
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+else :
+    print(floors[10])
+#print(people_outside)
+#print(elevator1_inside)
+    people_outside = int(input("how many are outside?"));
+    elevator1_inside = int((elevator1_inside + comming_in) - to_get_down);
+if people_outside > elevator1_inside:
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside > people_outside :
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+elif elevator1_inside == people_outside : 
+    print("Elevator is available for", + elevator1 - elevator1_inside);
+#comming_in = random.randint(1, 10)
+#button_pushed = random.randint(1, comming_in)
+comming_in = int(input("how many came in"))
+button_pushed = int(input("how many pushed the button"));
+to_get_down = int(input("how many to get down?"));
+if (comming_in == button_pushed):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+else :
+    button_pushed = int(input("please everyone comming in push the button,how many pushed the button"));
+if (button_pushed == comming_in):
+    print("comming", (elevator1_inside + comming_in) - to_get_down);
+if ((elevator1_inside + comming_in) - to_get_down > 20):
+    print("OVERLOADED, this elevator is for 20 persons maximum");
+else :    
+    print(floors[11])
