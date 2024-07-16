@@ -1,0 +1,25 @@
+from datetime import datetime    
+import time 
+print("it is a real problem in my country that sometimes ambulances used by abuser people for arriving to an urgent meeting or office, I am sure this app to solve that trouble")
+def countdown(t):
+    while t : 
+        mins, secs = divmod (t, 10)
+        timer = '{:02d}: {:02d}'.format(mins, secs)
+        print(timer, end = "\r")
+        time.sleep(1)
+        t -= 1
+t = 10;
+now = datetime.now()
+current_time = now.strftime("%H:%M:%S")
+print("The call has been recieved from the patient" + current_time)
+print(countdown(t))
+announce = input("Insert the ID number of the patient in 10 seconds (mins): ")
+while announce == 'OK':
+    print("REGISTERED URGENT PATIENT", "writes on the ambulance panel")
+    break;
+while announce != 'OK': 
+    print(countdown(t))
+    announce = input("Insert the ID number of the patient in 10 seconds (mins): ")
+Emergency_Register = input("Emergency register: ") 
+if Emergency_Register != 'OK':
+    print("ERROR")
